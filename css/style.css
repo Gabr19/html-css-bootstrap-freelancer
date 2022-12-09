@@ -1,7 +1,7 @@
 :root{
     --my-dark-color: #2c3e50;
     --my-light-color: #1abc9c;
-
+    --size: 1rem;
 }
 
 .bg-my-dark{
@@ -12,3 +12,76 @@
     background-color: var(--my-light-color);
 }
 
+
+#menu div{
+    display: inline-block;
+    margin: 0 var(--size);
+}
+
+#avatar{
+    height: 300px;
+}
+
+.line-star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-star .line-white{
+    height: 5px;
+    width: 80px;
+    background-color: white;
+    margin: 20px;
+    border-top: 0;
+}
+
+.line-star .line-black{
+    height: 5px;
+    width: 80px;
+    background-color: black;
+    margin: 20px;
+    border: 0;
+}
+
+
+
+.card img{
+    width: 100%;
+}
+
+.btn{
+    background-color: transparent;
+    border-color: white;
+}
+
+.btn_send{
+    color: white;
+    background-color: var(--my-light-color);
+    border: none;
+}
+
+.hr_contact_me{
+    padding-top: 10px;
+    
+}
+
+/* FOOTER */
+
+.text_green{
+    color: var(--my-light-color);
+}
+
+.icone i:not(:first-child){
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 5px 3px;
+}
+
+.facebook{
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
