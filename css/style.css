@@ -14,12 +14,12 @@
 
 /* HEADER */
 
-
-
 #menu div{
     display: inline-block;
     margin: 0 var(--size);
 }
+
+/* main */
 
 #avatar{
     height: 300px;
@@ -47,7 +47,10 @@
     border: 0;
 }
 
-
+main .card{
+    border: none;
+    
+}
 
 .card img{
     width: 100%;
