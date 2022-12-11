@@ -12,6 +12,9 @@
     background-color: var(--my-light-color);
 }
 
+/* HEADER */
+
+
 
 #menu div{
     display: inline-block;
@@ -87,8 +90,35 @@
 }
 
 
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 0px) {
     footer .col {
         margin: 10px;
     }
+
+    #hamburger_menu{
+        text-align: right;
+    }
+    
+
+    #menu{
+        display: none ;
+    }
   }
+
+  @media screen and (min-width: 768px) {
+    footer .col {
+        margin: 10px;
+    }
+
+    #hamburger_menu {
+        display: none;
+        width: 0;
+    }
+
+    #menu{
+        display: block;
+    }
+ 
+  }
+
