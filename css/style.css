@@ -74,6 +74,11 @@ main .card{
 
 /* FOOTER */
 
+#footer-top .row {
+    display: flex;
+    justify-content: center ;
+}
+
 .text_green{
     color: var(--my-light-color);
 }
